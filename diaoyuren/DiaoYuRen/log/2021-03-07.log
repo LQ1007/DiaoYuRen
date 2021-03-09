@@ -1,0 +1,139 @@
+2021-03-07 14:29:39,421 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 14:32:22,622 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 14:34:55,717 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 15:03:48,216 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 15:27:36,673 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 15:30:57,429 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 15:32:00,010 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:32:00,012 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:32:01,595 - root - WARNING - 到登录页面失败
+2021-03-07 15:32:01,596 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 15:32:01,811 - root - INFO - =========================开始执行正向用例==============
+2021-03-07 15:32:01,813 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 15:32:01,814 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 15:46:16,388 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 15:47:16,903 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:47:16,906 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:47:18,136 - root - WARNING - 到登录页面失败
+2021-03-07 15:47:18,137 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 15:47:18,327 - root - INFO - =========================开始执行正向用例==============
+2021-03-07 15:47:18,328 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 15:47:18,329 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 15:53:31,431 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 15:54:21,295 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:54:21,379 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:54:21,822 - root - WARNING - 到登录页面失败
+2021-03-07 15:54:21,822 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 15:54:22,316 - root - INFO - =========================开始执行正向用例==============
+2021-03-07 15:54:22,317 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 15:54:22,319 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 15:56:05,765 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 15:57:17,598 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:57:17,599 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 15:57:20,744 - root - WARNING - 到登录页面失败
+2021-03-07 15:57:20,745 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 15:57:22,269 - root - INFO - =========================开始执行正向用例==============
+2021-03-07 15:57:22,270 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 15:57:22,270 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:33:11,742 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 16:35:12,119 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 16:35:12,139 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 16:35:13,906 - root - WARNING - 到登录页面失败
+2021-03-07 16:35:13,907 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 16:35:15,121 - root - INFO - =========================开始执行正向用例==============
+2021-03-07 16:35:15,123 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:35:15,125 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:38:15,245 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 16:39:45,125 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 16:39:45,133 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 16:39:49,697 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:39:49,910 - root - INFO - 未找到页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:39:49,911 - root - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 16:39:49,912 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/iv_top_navi_setting')
+2021-03-07 16:39:49,913 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/iv_top_navi_setting')
+2021-03-07 16:39:49,980 - root - WARNING - 退出登录失败！
+2021-03-07 16:39:49,981 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 16:39:49,982 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:39:49,983 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:39:50,218 - root - WARNING - 到登录页面失败
+2021-03-07 16:39:50,219 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 16:39:51,654 - root - INFO - =========================开始执行正向用例==============
+2021-03-07 16:39:51,655 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:39:51,656 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:57:25,527 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 16:58:38,976 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 16:58:39,231 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 16:58:43,576 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:58:44,040 - root - INFO - 未找到页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:58:44,041 - root - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 16:58:44,042 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/iv_top_navi_setting')
+2021-03-07 16:58:44,043 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/iv_top_navi_setting')
+2021-03-07 16:58:44,084 - root - WARNING - 退出登录失败！
+2021-03-07 16:58:44,085 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 16:58:44,085 - root - INFO - 开始点击页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:58:44,086 - root - INFO - python查找页面元素：('id', '\tcom.lchr.diaoyu:id/tv_click2login')
+2021-03-07 16:58:44,432 - root - WARNING - 到登录页面失败
+2021-03-07 16:58:44,433 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-07 16:58:45,315 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-07 16:58:45,315 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:58:45,316 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:58:47,417 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-07 16:58:47,418 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:58:47,419 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:58:47,551 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-07 16:58:47,552 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:58:47,553 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:58:47,721 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-07 16:58:47,724 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 16:58:47,730 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:03:42,569 - root - INFO - ========================开始执行测试用例=================
+2021-03-07 17:04:32,397 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 17:04:32,398 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-07 17:04:37,078 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-07 17:04:37,102 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-07 17:04:37,103 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-07 17:04:39,146 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-07 17:04:39,148 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-07 17:04:41,315 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-07 17:04:41,317 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:41,318 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:42,019 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:42,020 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:42,558 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:42,559 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:43,098 - root - INFO - 登录操作完成
+2021-03-07 17:04:43,686 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-07 17:04:43,688 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:43,690 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:44,313 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:44,314 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:44,858 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:44,861 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:45,425 - root - INFO - 登录操作完成
+2021-03-07 17:04:45,509 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-07 17:04:45,510 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:45,511 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:46,522 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:46,524 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:47,069 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:47,070 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:47,616 - root - INFO - 登录操作完成
+2021-03-07 17:04:47,761 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-07 17:04:47,763 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:47,764 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-07 17:04:48,775 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:48,776 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-07 17:04:49,332 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:49,333 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-07 17:04:49,853 - root - INFO - 登录操作完成
