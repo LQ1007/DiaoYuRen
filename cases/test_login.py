@@ -4,6 +4,7 @@ import pytest
 from test_data.data_for_login import failed_data
 from time import sleep
 import allure
+from common.bases.base_page import BassPage
 
 
 @pytest.fixture(scope='module')
@@ -21,6 +22,8 @@ class TestLogin:
     def test_login_success(self, handler):
         logger.info('=========================开始执行正向用例==============')
         handler[1].login(success_data['username'], success_data['password'])
+        # logger.info('选中用户协议框')
+        # handler[1].BassPage.checkbox_agree()
         logger.info('登录操作完成')
         sleep(3)
         assert handler[1].is_nickname_exists()
@@ -33,8 +36,10 @@ class TestLogin:
     def test_login_failed(self, handler, data):
         logger.info('开始执行反向测试用例：{}'.format(data['name']))
         handler[1].login(data['username'], data['password'])
+        # logger.info('选中用户协议框')
+        # handler[1].BassPage.checkbox_agree()
         logger.info('登录操作完成')
-        assert handler[1].is_toast_show(data['error_mag'])
+        assert handler[1].is_toast_show(data['error_msg'])
         handler[1].save_picture(data['name'])
 
 

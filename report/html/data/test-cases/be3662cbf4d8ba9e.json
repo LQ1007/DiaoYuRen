@@ -1,0 +1,137 @@
+{
+  "uid" : "be3662cbf4d8ba9e",
+  "name" : "登录正向用例测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_success",
+  "historyId" : "4de4eac7aa5437331edc4ae996ff58ee",
+  "time" : {
+    "start" : 1615352877155,
+    "stop" : 1615352879274,
+    "duration" : 2119
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+  "statusTrace" : "self = <cases.test_login.TestLogin object at 0x000002A4717654E0>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"9d4ce1a1-3152-4202-a133-c8f254d654bc\")>, <pages.page_action.PageAction object at 0x000002A470350E10>)\n\n    @allure.story('钓鱼人APP自动化测试-登录模块-正向用例测试')\n    @allure.title('登录正向用例测试')\n    @pytest.mark.last\n    def test_login_success(self, handler):\n        logger.info('=========================开始执行正向用例==============')\n        handler[1].login(success_data['username'], success_data['password'])\n>       BassPage.checkbox_agree()\nE       AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'\n\ncases\\test_login.py:25: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1615352813435,
+      "stop" : 1615352851643,
+      "duration" : 38208
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1615352851646,
+      "stop" : 1615352863126,
+      "duration" : 11480
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+    "statusTrace" : "self = <cases.test_login.TestLogin object at 0x000002A4717654E0>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"9d4ce1a1-3152-4202-a133-c8f254d654bc\")>, <pages.page_action.PageAction object at 0x000002A470350E10>)\n\n    @allure.story('钓鱼人APP自动化测试-登录模块-正向用例测试')\n    @allure.title('登录正向用例测试')\n    @pytest.mark.last\n    def test_login_success(self, handler):\n        logger.info('=========================开始执行正向用例==============')\n        handler[1].login(success_data['username'], success_data['password'])\n>       BassPage.checkbox_agree()\nE       AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'\n\ncases\\test_login.py:25: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a4d8757a0613284f",
+      "name" : "log",
+      "source" : "a4d8757a0613284f.txt",
+      "type" : "text/plain",
+      "size" : 4367
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1615352879528,
+      "stop" : 1615352897106,
+      "duration" : 17578
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "钓鱼人APP自动化测试-登录模块-正向用例测试"
+  }, {
+    "name" : "feature",
+    "value" : "钓鱼人APP自动化测试-登录模块"
+  }, {
+    "name" : "epic",
+    "value" : "钓鱼人APP自动化测试"
+  }, {
+    "name" : "tag",
+    "value" : "last"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LSM6I36P"
+  }, {
+    "name" : "thread",
+    "value" : "9328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "last", "run(order=-1)", "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "be3662cbf4d8ba9e.json",
+  "parameterValues" : [ ]
+}

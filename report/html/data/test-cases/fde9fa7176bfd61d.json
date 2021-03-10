@@ -1,0 +1,130 @@
+{
+  "uid" : "fde9fa7176bfd61d",
+  "name" : "登录反向用例测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "dbeb2a97f887c27b8015e9253b5aa614",
+  "time" : {
+    "start" : 1615360842401,
+    "stop" : 1615360845065,
+    "duration" : 2664
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1615360766573,
+      "stop" : 1615360803649,
+      "duration" : 37076
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1615360803649,
+      "stop" : 1615360812869,
+      "duration" : 9220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a99e5fe347ac8125",
+      "name" : "log",
+      "source" : "a99e5fe347ac8125.txt",
+      "type" : "text/plain",
+      "size" : 5615
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1615360850802,
+      "stop" : 1615360853102,
+      "duration" : 2300
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "钓鱼人APP自动化测试-登录模块-反向用例测试"
+  }, {
+    "name" : "feature",
+    "value" : "钓鱼人APP自动化测试-登录模块"
+  }, {
+    "name" : "epic",
+    "value" : "钓鱼人APP自动化测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LSM6I36P"
+  }, {
+    "name" : "thread",
+    "value" : "5840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录-反向用例-密码为空', 'username': '32546', 'password': '', 'error_msg': '密码不能为空'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "fde9fa7176bfd61d.json",
+  "parameterValues" : [ "{'name': '登录-反向用例-密码为空', 'username': '32546', 'password': '', 'error_msg': '密码不能为空'}" ]
+}

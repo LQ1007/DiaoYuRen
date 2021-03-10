@@ -1,0 +1,247 @@
+{
+  "uid" : "d8cfd88ed5ea41a9",
+  "name" : "登录反向用例测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "daee70692129a544e4ece7a1edb1fbca",
+  "time" : {
+    "start" : 1615361153242,
+    "stop" : 1615361156008,
+    "duration" : 2766
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1615361108642,
+      "stop" : 1615361133964,
+      "duration" : 25322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1615361133965,
+      "stop" : 1615361147376,
+      "duration" : 13411
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ffbed4c5a1e57b74",
+      "name" : "log",
+      "source" : "ffbed4c5a1e57b74.txt",
+      "type" : "text/plain",
+      "size" : 6254
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1615361164042,
+      "stop" : 1615361168670,
+      "duration" : 4628
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "钓鱼人APP自动化测试"
+  }, {
+    "name" : "feature",
+    "value" : "钓鱼人APP自动化测试-登录模块"
+  }, {
+    "name" : "story",
+    "value" : "钓鱼人APP自动化测试-登录模块-反向用例测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LSM6I36P"
+  }, {
+    "name" : "thread",
+    "value" : "16828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录-反向用例-用户名正确-密码错误', 'username': '15191776915', 'password': '34354658', 'error_msg': '账号或密码错误'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6e872b234913426f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615360839552,
+        "stop" : 1615360842357,
+        "duration" : 2805
+      }
+    }, {
+      "uid" : "41870087dbe573a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615360266830,
+        "stop" : 1615360269468,
+        "duration" : 2638
+      }
+    }, {
+      "uid" : "4f33e4c9e318fc61",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'PageAction' object has no attribute 'BassPage'",
+      "time" : {
+        "start" : 1615355770498,
+        "stop" : 1615355772136,
+        "duration" : 1638
+      }
+    }, {
+      "uid" : "9272bfe81881f55b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'PageAction' object has no attribute 'BassPage'",
+      "time" : {
+        "start" : 1615355313334,
+        "stop" : 1615355314937,
+        "duration" : 1603
+      }
+    }, {
+      "uid" : "1850c8748308fba4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615354776415,
+        "stop" : 1615354778325,
+        "duration" : 1910
+      }
+    }, {
+      "uid" : "aa82b1e751ceefde",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615354528927,
+        "stop" : 1615354530733,
+        "duration" : 1806
+      }
+    }, {
+      "uid" : "d3804a56732975b6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615354201115,
+        "stop" : 1615354203371,
+        "duration" : 2256
+      }
+    }, {
+      "uid" : "373760e8d63d4c6d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615352872394,
+        "stop" : 1615352875171,
+        "duration" : 2777
+      }
+    }, {
+      "uid" : "1fdfd3c09a60aafe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615345658086,
+        "stop" : 1615345658119,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "9d4f485ecdf0b25d",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'error_mag'",
+      "time" : {
+        "start" : 1615258237478,
+        "stop" : 1615258239193,
+        "duration" : 1715
+      }
+    }, {
+      "uid" : "894cb108e7ddc708",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'error_mag'",
+      "time" : {
+        "start" : 1615251815603,
+        "stop" : 1615251817668,
+        "duration" : 2065
+      }
+    }, {
+      "uid" : "cded42d9b3ab385b",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'error_mag'",
+      "time" : {
+        "start" : 1615107885509,
+        "stop" : 1615107887617,
+        "duration" : 2108
+      }
+    }, {
+      "uid" : "13a71854bf8366ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615107527552,
+        "stop" : 1615107527604,
+        "duration" : 52
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "d8cfd88ed5ea41a9.json",
+  "parameterValues" : [ "{'name': '登录-反向用例-用户名正确-密码错误', 'username': '15191776915', 'password': '34354658', 'error_msg': '账号或密码错误'}" ]
+}

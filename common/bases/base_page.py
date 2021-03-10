@@ -6,6 +6,7 @@ from run import img_dir_path
 from run import logger
 import time
 from selenium.webdriver.common.by import By
+from locators.login_locator import LoginLocator
 
 
 class BassPage:
@@ -77,4 +78,8 @@ class BassPage:
             logger.warning('查找toast:{}失败'.format(locator))
             self.save_picture('no_toast')
             return False
+
+
+
+
 

@@ -17,6 +17,10 @@ class PageAction(BassPage):
         self.click_element(MainPageLocator.me_icon_loc)
         self.sleep(3)
 
+    # # 勾选用户协议
+    # def checkbox_agree(self):
+    #     self.search_element(LoginLocator.agree_privacy_loc).click()
+
     def is_user_login(self):
         '''
 

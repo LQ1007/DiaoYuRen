@@ -1,0 +1,134 @@
+{
+  "uid" : "894cb108e7ddc708",
+  "name" : "登录反向用例测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "daee70692129a544e4ece7a1edb1fbca",
+  "time" : {
+    "start" : 1615251815603,
+    "stop" : 1615251817668,
+    "duration" : 2065
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'error_mag'",
+  "statusTrace" : "self = <cases.test_login.TestLogin object at 0x00000275AD9834E0>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"a29217a3-b814-4536-ad26-f37f62556b73\")>, <pages.page_action.PageAction object at 0x00000275AC54FE80>)\ndata = {'error_msg': '账号或密码错误', 'name': '登录-反向用例-用户名正确-密码错误', 'password': '34354658', 'username': '15191776915'}\n\n    @allure.story('钓鱼人APP自动化测试-登录模块-反向用例测试')\n    @allure.title('登录反向用例测试')\n    @pytest.mark.parametrize('data',failed_data)\n    def test_login_failed(self, handler, data):\n        logger.info('开始执行反向测试用例：{}'.format(data['name']))\n        handler[1].login(data['username'], data['password'])\n        logger.info('登录操作完成')\n>       assert handler[1].is_toast_show(data['error_mag'])\nE       KeyError: 'error_mag'\n\ncases\\test_login.py:37: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1615251802214,
+      "stop" : 1615251811485,
+      "duration" : 9271
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1615251762373,
+      "stop" : 1615251802196,
+      "duration" : 39823
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'error_mag'",
+    "statusTrace" : "self = <cases.test_login.TestLogin object at 0x00000275AD9834E0>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"a29217a3-b814-4536-ad26-f37f62556b73\")>, <pages.page_action.PageAction object at 0x00000275AC54FE80>)\ndata = {'error_msg': '账号或密码错误', 'name': '登录-反向用例-用户名正确-密码错误', 'password': '34354658', 'username': '15191776915'}\n\n    @allure.story('钓鱼人APP自动化测试-登录模块-反向用例测试')\n    @allure.title('登录反向用例测试')\n    @pytest.mark.parametrize('data',failed_data)\n    def test_login_failed(self, handler, data):\n        logger.info('开始执行反向测试用例：{}'.format(data['name']))\n        handler[1].login(data['username'], data['password'])\n        logger.info('登录操作完成')\n>       assert handler[1].is_toast_show(data['error_mag'])\nE       KeyError: 'error_mag'\n\ncases\\test_login.py:37: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d8b017845f52faa",
+      "name" : "log",
+      "source" : "9d8b017845f52faa.txt",
+      "type" : "text/plain",
+      "size" : 3985
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1615251819873,
+      "stop" : 1615251822564,
+      "duration" : 2691
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "钓鱼人APP自动化测试-登录模块"
+  }, {
+    "name" : "story",
+    "value" : "钓鱼人APP自动化测试-登录模块-反向用例测试"
+  }, {
+    "name" : "epic",
+    "value" : "钓鱼人APP自动化测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LSM6I36P"
+  }, {
+    "name" : "thread",
+    "value" : "14088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录-反向用例-用户名正确-密码错误', 'username': '15191776915', 'password': '34354658', 'error_msg': '账号或密码错误'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "894cb108e7ddc708.json",
+  "parameterValues" : [ "{'name': '登录-反向用例-用户名正确-密码错误', 'username': '15191776915', 'password': '34354658', 'error_msg': '账号或密码错误'}" ]
+}

@@ -1,0 +1,29 @@
+INFO     root:get_log.py:28 开始执行反向测试用例：登录-反向用例-密码为空
+INFO     root:get_log.py:28 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+INFO     root:get_log.py:28 python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element {"using": "id", "value": "com.lchr.diaoyu:id/user_id"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "POST /wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element/bb63bc24-bc9e-474e-8e6f-1c00e2656623/value {"text": "32546", "value": ["3", "2", "5", "4", "6"], "id": "bb63bc24-bc9e-474e-8e6f-1c00e2656623"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "POST /wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element/bb63bc24-bc9e-474e-8e6f-1c00e2656623/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:28 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+INFO     root:get_log.py:28 python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element {"using": "id", "value": "com.lchr.diaoyu:id/passwd_id"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "POST /wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element/82821502-f08b-4208-acc2-81cbe21f5d2b/value {"text": "", "value": [], "id": "82821502-f08b-4208-acc2-81cbe21f5d2b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "POST /wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element/82821502-f08b-4208-acc2-81cbe21f5d2b/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:28 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+INFO     root:get_log.py:28 python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element {"using": "id", "value": "com.lchr.diaoyu:id/btn_login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "POST /wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element/f352068e-5c2c-4564-97e3-34d7ec03d0ae/click {"id": "f352068e-5c2c-4564-97e3-34d7ec03d0ae"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "POST /wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73/element/f352068e-5c2c-4564-97e3-34d7ec03d0ae/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:28 登录操作完成
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:4723/wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "DELETE /wd/hub/session/a29217a3-b814-4536-ad26-f37f62556b73 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

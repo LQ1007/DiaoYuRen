@@ -1,0 +1,6 @@
+INFO     root:get_log.py:28 开始执行反向测试用例：登录-反向用例-用户名错误
+INFO     root:get_log.py:28 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+INFO     root:get_log.py:28 python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df46ca96-5297-4ba7-b830-c37f06c6eeed/element {"using": "id", "value": "com.lchr.diaoyu:id/user_id"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:4723 "POST /wd/hub/session/df46ca96-5297-4ba7-b830-c37f06c6eeed/element HTTP/1.1" 404 519
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

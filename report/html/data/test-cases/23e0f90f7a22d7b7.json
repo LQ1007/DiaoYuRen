@@ -1,0 +1,295 @@
+{
+  "uid" : "23e0f90f7a22d7b7",
+  "name" : "登录正向用例测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_success",
+  "historyId" : "4de4eac7aa5437331edc4ae996ff58ee",
+  "time" : {
+    "start" : 1615361158866,
+    "stop" : 1615361164038,
+    "duration" : 5172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1615361108642,
+      "stop" : 1615361133964,
+      "duration" : 25322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1615361133965,
+      "stop" : 1615361147376,
+      "duration" : 13411
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "72d78c2130b3ddc9",
+      "name" : "log",
+      "source" : "72d78c2130b3ddc9.txt",
+      "type" : "text/plain",
+      "size" : 5685
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1615361164042,
+      "stop" : 1615361168670,
+      "duration" : 4628
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "钓鱼人APP自动化测试"
+  }, {
+    "name" : "feature",
+    "value" : "钓鱼人APP自动化测试-登录模块"
+  }, {
+    "name" : "story",
+    "value" : "钓鱼人APP自动化测试-登录模块-正向用例测试"
+  }, {
+    "name" : "tag",
+    "value" : "last"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LSM6I36P"
+  }, {
+    "name" : "thread",
+    "value" : "16828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa32ff69ba6edf9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615360845507,
+        "stop" : 1615360850800,
+        "duration" : 5293
+      }
+    }, {
+      "uid" : "e7fe5d897e0135ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615360272269,
+        "stop" : 1615360277244,
+        "duration" : 4975
+      }
+    }, {
+      "uid" : "37c26c5bd9c2cd1b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'PageAction' object has no attribute 'BassPage'",
+      "time" : {
+        "start" : 1615355774332,
+        "stop" : 1615355776370,
+        "duration" : 2038
+      }
+    }, {
+      "uid" : "e6dc527f5bdd5c0a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'PageAction' object has no attribute 'BassPage'",
+      "time" : {
+        "start" : 1615355317517,
+        "stop" : 1615355319576,
+        "duration" : 2059
+      }
+    }, {
+      "uid" : "6318e91018aaf8dc",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615354780517,
+        "stop" : 1615354782549,
+        "duration" : 2032
+      }
+    }, {
+      "uid" : "3c116fcbe0cdd0ce",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615354533079,
+        "stop" : 1615354535038,
+        "duration" : 1959
+      }
+    }, {
+      "uid" : "3e50179701358fbb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615354205613,
+        "stop" : 1615354207668,
+        "duration" : 2055
+      }
+    }, {
+      "uid" : "be3662cbf4d8ba9e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'BassPage' has no attribute 'checkbox_agree'",
+      "time" : {
+        "start" : 1615352877155,
+        "stop" : 1615352879274,
+        "duration" : 2119
+      }
+    }, {
+      "uid" : "3784f44297cd67b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615345658531,
+        "stop" : 1615345658553,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "7db58c9fdf923bbb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615106391653,
+        "stop" : 1615106391721,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "d2ccd3bfcf7ccd4c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615106115121,
+        "stop" : 1615106115151,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "91073dcda4317030",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615103842269,
+        "stop" : 1615103842423,
+        "duration" : 154
+      }
+    }, {
+      "uid" : "62daff0db940264c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615103662316,
+        "stop" : 1615103662381,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "19204373fc727973",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615103238327,
+        "stop" : 1615103238378,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "8c83487918ed3a3b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615102321811,
+        "stop" : 1615102321957,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "cb4c7a3d9ed986e1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 24738ms.",
+      "time" : {
+        "start" : 1615102070848,
+        "stop" : 1615102070848,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5db5190b6cc45b45",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D52F526F28>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))",
+      "time" : {
+        "start" : 1615100640234,
+        "stop" : 1615100640234,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "524201417f36459f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFB73730F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))",
+      "time" : {
+        "start" : 1615098911967,
+        "stop" : 1615098911967,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "last", "run(order=-1)", "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "23e0f90f7a22d7b7.json",
+  "parameterValues" : [ ]
+}

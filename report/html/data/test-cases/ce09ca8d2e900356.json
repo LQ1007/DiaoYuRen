@@ -1,0 +1,134 @@
+{
+  "uid" : "ce09ca8d2e900356",
+  "name" : "登录反向用例测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "d93c8b521d1ee7fc4eb27338522fd359",
+  "time" : {
+    "start" : 1615355765805,
+    "stop" : 1615355767396,
+    "duration" : 1591
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'PageAction' object has no attribute 'BassPage'",
+  "statusTrace" : "self = <cases.test_login.TestLogin object at 0x0000022BBC2746A0>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"e07f4a61-74ab-46e4-8222-3c074688b28c\")>, <pages.page_action.PageAction object at 0x0000022BBB260E10>)\ndata = {'error_msg': '用户名不能为空！', 'name': '登录-反向用例-用户名为空', 'password': '654321', 'username': ''}\n\n    @allure.story('钓鱼人APP自动化测试-登录模块-反向用例测试')\n    @allure.title('登录反向用例测试')\n    @pytest.mark.parametrize('data',failed_data)\n    def test_login_failed(self, handler, data):\n        logger.info('开始执行反向测试用例：{}'.format(data['name']))\n        handler[1].login(data['username'], data['password'])\n        logger.info('选中用户协议框')\n>       handler[1].BassPage.checkbox_agree()\nE       AttributeError: 'PageAction' object has no attribute 'BassPage'\n\ncases\\test_login.py:40: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1615355724875,
+      "stop" : 1615355754442,
+      "duration" : 29567
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "prepare_to_login",
+    "time" : {
+      "start" : 1615355754443,
+      "stop" : 1615355764841,
+      "duration" : 10398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'PageAction' object has no attribute 'BassPage'",
+    "statusTrace" : "self = <cases.test_login.TestLogin object at 0x0000022BBC2746A0>\nhandler = (<appium.webdriver.webdriver.WebDriver (session=\"e07f4a61-74ab-46e4-8222-3c074688b28c\")>, <pages.page_action.PageAction object at 0x0000022BBB260E10>)\ndata = {'error_msg': '用户名不能为空！', 'name': '登录-反向用例-用户名为空', 'password': '654321', 'username': ''}\n\n    @allure.story('钓鱼人APP自动化测试-登录模块-反向用例测试')\n    @allure.title('登录反向用例测试')\n    @pytest.mark.parametrize('data',failed_data)\n    def test_login_failed(self, handler, data):\n        logger.info('开始执行反向测试用例：{}'.format(data['name']))\n        handler[1].login(data['username'], data['password'])\n        logger.info('选中用户协议框')\n>       handler[1].BassPage.checkbox_agree()\nE       AttributeError: 'PageAction' object has no attribute 'BassPage'\n\ncases\\test_login.py:40: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5acad00d70b663c6",
+      "name" : "log",
+      "source" : "5acad00d70b663c6.txt",
+      "type" : "text/plain",
+      "size" : 9361
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1615355776433,
+      "stop" : 1615355777551,
+      "duration" : 1118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "钓鱼人APP自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "钓鱼人APP自动化测试-登录模块-反向用例测试"
+  }, {
+    "name" : "feature",
+    "value" : "钓鱼人APP自动化测试-登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('prepare_to_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LSM6I36P"
+  }, {
+    "name" : "thread",
+    "value" : "4676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录-反向用例-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空！'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('prepare_to_login')" ]
+  },
+  "source" : "ce09ca8d2e900356.json",
+  "parameterValues" : [ "{'name': '登录-反向用例-用户名为空', 'username': '', 'password': '654321', 'error_msg': '用户名不能为空！'}" ]
+}

@@ -1,0 +1,489 @@
+2021-03-10 11:06:11,996 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 11:07:28,007 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 11:07:28,009 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 11:07:31,927 - root - WARNING - 到登录页面失败
+2021-03-10 11:07:31,928 - root - WARNING - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-10 11:07:33,596 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 11:07:33,596 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:33,649 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:37,773 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 11:07:37,774 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:37,775 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:38,086 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 11:07:38,088 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:38,089 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:38,383 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 11:07:38,384 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:38,384 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:38,531 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 11:07:38,532 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 11:07:38,533 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:06:34,755 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 13:07:31,647 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:07:32,073 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:07:37,650 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:07:37,675 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:07:37,676 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:07:39,724 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:07:39,725 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:07:44,432 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 13:07:44,432 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:44,433 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:45,978 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:45,980 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:46,499 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:46,500 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:49,527 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 13:07:49,528 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:49,529 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:50,133 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:50,133 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:50,654 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:50,656 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:52,394 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 13:07:52,396 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:52,397 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:53,610 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:53,611 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:54,127 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:54,128 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:55,263 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 13:07:55,263 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:55,264 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:55,849 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:55,851 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:56,366 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:56,367 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:57,155 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 13:07:57,162 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:57,163 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:07:57,949 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:57,950 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:07:58,466 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:07:58,467 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:28:48,549 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 13:29:49,246 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:29:49,281 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:29:52,854 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:29:52,882 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:29:52,883 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:29:54,916 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:29:54,918 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:29:57,127 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 13:29:57,128 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:29:57,133 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:29:57,684 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:29:57,686 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:29:58,242 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:29:58,243 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:29:59,398 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 13:29:59,398 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:29:59,400 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:29:59,946 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:29:59,947 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:30:00,469 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:30:00,472 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:30:01,115 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 13:30:01,116 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:30:01,117 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:30:02,323 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:30:02,328 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:30:02,866 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:30:02,867 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:30:03,544 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 13:30:03,545 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:30:03,546 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:30:04,468 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:30:04,469 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:30:05,002 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:30:05,003 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:30:05,613 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 13:30:05,614 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:30:05,615 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:30:06,615 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:30:06,616 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:30:07,161 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:30:07,162 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:34:29,154 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 13:35:13,461 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:35:13,482 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:35:17,292 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:35:17,321 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:35:17,322 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:35:19,494 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:35:19,496 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:35:21,646 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 13:35:21,647 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:21,648 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:22,232 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:22,233 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:22,788 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:22,790 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:26,979 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 13:35:26,980 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:26,981 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:27,549 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:27,551 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:28,083 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:28,085 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:28,927 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 13:35:28,928 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:28,929 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:29,686 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:29,687 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:30,229 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:30,230 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:30,757 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 13:35:30,759 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:30,759 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:31,854 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:31,860 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:32,397 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:32,399 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:33,081 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 13:35:33,082 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:33,084 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:35:33,984 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:33,985 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:35:34,514 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:35:34,516 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:38:39,887 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 13:39:21,636 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:39:21,688 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:39:25,565 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:39:25,612 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:39:25,613 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:39:27,661 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:39:27,662 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:39:31,165 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 13:39:31,165 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:31,166 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:31,728 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:31,729 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:32,256 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:32,257 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:34,591 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 13:39:34,592 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:34,593 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:35,163 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:35,164 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:35,682 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:35,684 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:36,416 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 13:39:36,417 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:36,423 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:37,269 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:37,271 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:37,805 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:37,806 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:38,699 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 13:39:38,700 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:38,701 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:39,401 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:39,403 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:40,012 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:40,013 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:40,518 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 13:39:40,524 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:40,526 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:39:41,499 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:41,500 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:39:42,015 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:39:42,017 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:47:31,524 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 13:48:15,006 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:48:15,553 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:48:18,766 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:48:18,786 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:48:18,787 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:48:20,816 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:48:20,818 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:48:25,457 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 13:48:25,458 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:25,459 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:26,132 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:26,133 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:26,708 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:26,709 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:27,224 - root - INFO - 选中用户协议框
+2021-03-10 13:48:30,360 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 13:48:30,361 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:30,362 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:30,923 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:30,928 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:31,451 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:31,453 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:32,284 - root - INFO - 选中用户协议框
+2021-03-10 13:48:33,334 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 13:48:33,335 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:33,337 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:33,918 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:33,920 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:34,430 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:34,431 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:34,937 - root - INFO - 选中用户协议框
+2021-03-10 13:48:34,991 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 13:48:34,993 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:34,994 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:36,344 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:36,346 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:36,886 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:36,887 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:37,413 - root - INFO - 选中用户协议框
+2021-03-10 13:48:37,518 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 13:48:37,519 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:37,521 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:48:38,496 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:38,497 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:48:39,046 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:39,048 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:48:39,575 - root - INFO - 选中用户协议框
+2021-03-10 13:55:18,831 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 13:55:54,444 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:55:54,479 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 13:55:59,169 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:55:59,196 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:55:59,197 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 13:56:01,250 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:56:01,251 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 13:56:05,806 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 13:56:05,807 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:05,808 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:06,365 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:06,367 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:06,885 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:06,886 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:07,395 - root - INFO - 选中用户协议框
+2021-03-10 13:56:08,251 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 13:56:08,252 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:08,253 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:08,834 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:08,834 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:09,382 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:09,383 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:09,909 - root - INFO - 选中用户协议框
+2021-03-10 13:56:10,498 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 13:56:10,499 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:10,501 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:11,067 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:11,069 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:11,613 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:11,614 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:12,134 - root - INFO - 选中用户协议框
+2021-03-10 13:56:12,200 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 13:56:12,209 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:12,214 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:13,202 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:13,208 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:13,750 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:13,751 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:14,251 - root - INFO - 选中用户协议框
+2021-03-10 13:56:14,332 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 13:56:14,333 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:14,334 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 13:56:15,327 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:15,329 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 13:56:15,853 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:15,855 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 13:56:16,366 - root - INFO - 选中用户协议框
+2021-03-10 15:09:17,243 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 15:10:29,980 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 15:10:30,032 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 15:10:33,144 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:10:33,167 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:10:33,168 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:10:35,795 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 15:10:35,797 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 15:10:39,004 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 15:10:39,005 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:10:39,006 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:10:39,560 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:10:39,561 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:10:40,079 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:10:40,080 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:10:40,585 - root - INFO - 登录操作完成
+2021-03-10 15:10:42,564 - root - INFO - 找到toast
+2021-03-10 15:10:43,252 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_10_42.png
+2021-03-10 15:10:43,571 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-用户名为空-2021-03-10_15_10_43.png
+2021-03-10 15:10:43,963 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 15:10:43,964 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:10:43,965 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:10:44,618 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:10:44,619 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:10:45,157 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:10:45,158 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:10:45,676 - root - INFO - 登录操作完成
+2021-03-10 15:11:06,054 - root - ERROR - Message: 
+
+2021-03-10 15:11:06,056 - root - WARNING - 查找toast:('xpath', "//*[contains(@text, '登录验证失败，用户不存在！')]")失败
+2021-03-10 15:11:06,206 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\no_toast-2021-03-10_15_11_06.png
+2021-03-10 15:11:06,830 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 15:11:06,831 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:11:06,832 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:11:07,379 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:11:07,380 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:11:07,891 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:11:07,892 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:11:08,396 - root - INFO - 登录操作完成
+2021-03-10 15:11:09,034 - root - INFO - 找到toast
+2021-03-10 15:11:09,249 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_11_09.png
+2021-03-10 15:11:09,467 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-用户名正确-密码错误-2021-03-10_15_11_09.png
+2021-03-10 15:11:09,514 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 15:11:09,516 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:11:09,517 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:11:10,077 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:11:10,078 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:11:10,595 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:11:10,596 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:11:11,098 - root - INFO - 登录操作完成
+2021-03-10 15:11:11,742 - root - INFO - 找到toast
+2021-03-10 15:11:11,950 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_11_11.png
+2021-03-10 15:11:12,247 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-密码为空-2021-03-10_15_11_11.png
+2021-03-10 15:11:12,270 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 15:11:12,271 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:11:12,272 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:11:12,811 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:11:12,811 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:11:13,328 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:11:13,329 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:11:13,834 - root - INFO - 登录操作完成
+2021-03-10 15:11:16,835 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-03-10 15:11:16,858 - root - INFO - ==================正向用例测试通过:pass======================
+2021-03-10 15:11:17,243 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\正向用例测试截图-2021-03-10_15_11_16.png
+2021-03-10 15:19:09,526 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 15:20:03,650 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 15:20:04,368 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 15:20:08,510 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:20:08,530 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:20:08,531 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:20:10,738 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 15:20:10,740 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 15:20:13,037 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 15:20:13,038 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:13,039 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:13,663 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:13,664 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:14,200 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:14,202 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:14,704 - root - INFO - 登录操作完成
+2021-03-10 15:20:14,825 - root - INFO - 找到toast
+2021-03-10 15:20:16,015 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_20_14.png
+2021-03-10 15:20:16,635 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-用户名为空-2021-03-10_15_20_16.png
+2021-03-10 15:20:16,827 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 15:20:16,828 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:16,828 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:17,396 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:17,398 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:17,976 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:17,977 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:18,483 - root - INFO - 登录操作完成
+2021-03-10 15:20:38,491 - root - ERROR - Message: 
+
+2021-03-10 15:20:38,493 - root - WARNING - 查找toast:('xpath', "//*[contains(@text, '登录验证失败，用户不存在')]")失败
+2021-03-10 15:20:38,670 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\no_toast-2021-03-10_15_20_38.png
+2021-03-10 15:20:39,552 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 15:20:39,553 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:39,554 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:40,094 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:40,095 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:40,610 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:40,611 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:41,116 - root - INFO - 登录操作完成
+2021-03-10 15:20:41,742 - root - INFO - 找到toast
+2021-03-10 15:20:41,977 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_20_41.png
+2021-03-10 15:20:42,355 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-用户名正确-密码错误-2021-03-10_15_20_41.png
+2021-03-10 15:20:42,400 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 15:20:42,401 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:42,402 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:42,942 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:42,943 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:43,462 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:43,463 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:43,968 - root - INFO - 登录操作完成
+2021-03-10 15:20:44,042 - root - INFO - 找到toast
+2021-03-10 15:20:44,854 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_20_44.png
+2021-03-10 15:20:45,063 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-密码为空-2021-03-10_15_20_44.png
+2021-03-10 15:20:45,506 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 15:20:45,508 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:45,509 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:20:46,093 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:46,094 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:20:46,629 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:46,630 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:20:47,183 - root - INFO - 登录操作完成
+2021-03-10 15:20:50,183 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-03-10 15:20:50,203 - root - INFO - ==================正向用例测试通过:pass======================
+2021-03-10 15:20:50,798 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\正向用例测试截图-2021-03-10_15_20_50.png
+2021-03-10 15:24:54,689 - root - INFO - ========================开始执行测试用例=================
+2021-03-10 15:25:33,965 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 15:25:34,001 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_tab_mine')
+2021-03-10 15:25:37,704 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:25:37,849 - root - INFO - 未找到页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:25:37,850 - root - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2021-03-10 15:25:37,851 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/iv_top_navi_setting')
+2021-03-10 15:25:37,852 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/iv_top_navi_setting')
+2021-03-10 15:25:38,909 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/rtv_setting_logout')
+2021-03-10 15:25:38,911 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/rtv_setting_logout')
+2021-03-10 15:25:40,282 - root - INFO - 开始点击页面元素：('id', 'android:id/button1')
+2021-03-10 15:25:40,284 - root - INFO - python查找页面元素：('id', 'android:id/button1')
+2021-03-10 15:25:43,313 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:25:43,314 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_click2login')
+2021-03-10 15:25:45,349 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 15:25:45,350 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/tv_account_login')
+2021-03-10 15:25:47,573 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-03-10 15:25:47,574 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:47,576 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:48,128 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:48,130 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:48,643 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:48,645 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:49,168 - root - INFO - 登录操作完成
+2021-03-10 15:25:49,732 - root - INFO - 找到toast
+2021-03-10 15:25:50,153 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_25_49.png
+2021-03-10 15:25:50,417 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-用户名为空-2021-03-10_15_25_50.png
+2021-03-10 15:25:50,427 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-03-10 15:25:50,428 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:50,429 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:50,977 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:50,978 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:51,499 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:51,500 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:52,023 - root - INFO - 登录操作完成
+2021-03-10 15:25:52,744 - root - INFO - 找到toast
+2021-03-10 15:25:52,926 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_25_52.png
+2021-03-10 15:25:53,233 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-用户名错误-2021-03-10_15_25_53.png
+2021-03-10 15:25:53,243 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名正确-密码错误
+2021-03-10 15:25:53,244 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:53,245 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:53,844 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:53,845 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:54,426 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:54,428 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:54,888 - root - INFO - 登录操作完成
+2021-03-10 15:25:55,630 - root - INFO - 找到toast
+2021-03-10 15:25:55,810 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_25_55.png
+2021-03-10 15:25:56,007 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-用户名正确-密码错误-2021-03-10_15_25_55.png
+2021-03-10 15:25:56,056 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-03-10 15:25:56,058 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:56,059 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:56,609 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:56,610 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:57,130 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:57,131 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:57,633 - root - INFO - 登录操作完成
+2021-03-10 15:25:57,682 - root - INFO - 找到toast
+2021-03-10 15:25:57,859 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\toast截图-2021-03-10_15_25_57.png
+2021-03-10 15:25:58,689 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\登录-反向用例-密码为空-2021-03-10_15_25_57.png
+2021-03-10 15:25:58,865 - root - INFO - =========================开始执行正向用例==============
+2021-03-10 15:25:58,867 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:58,868 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_id')
+2021-03-10 15:25:59,411 - root - INFO - 开始向页面元素发送数据：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:59,411 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/passwd_id')
+2021-03-10 15:25:59,926 - root - INFO - 开始点击页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:25:59,927 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/btn_login')
+2021-03-10 15:26:00,432 - root - INFO - 登录操作完成
+2021-03-10 15:26:03,432 - root - INFO - python查找页面元素：('id', 'com.lchr.diaoyu:id/user_nick_name')
+2021-03-10 15:26:03,453 - root - INFO - ==================正向用例测试通过:pass======================
+2021-03-10 15:26:04,037 - root - INFO - 截图成功，图片保存路径为：F:\ruanjianceshi\diaoyuren_app_AutoTest\img\正向用例测试截图-2021-03-10_15_26_03.png
